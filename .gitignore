@@ -1,0 +1,79 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# CatBoost
+catboost_info/
+*.cbm
+
+# Data files (keep structure)
+data/raw_data/*
+data/prod_data/*
+!data/raw_data/.gitkeep
+!data/prod_data/.gitkeep
+
+# Model artifacts
+models/experiments/*
+models/prod/*
+!models/experiments/.gitkeep
+!models/prod/.gitkeep
+
+# Environment files
+.env
+.env.local
+
+# Logs
+*.log
+logs/
+
+# macOS
+__MACOSX/
+.AppleDouble
+.LSOverride
+
+# Temporary files
+*.tmp
+.tmp/
+
+# Cache directories
+.cache/
+*.cache
