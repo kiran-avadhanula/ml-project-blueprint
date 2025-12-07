@@ -110,7 +110,7 @@ conda env create -f environment.yml
 conda activate ml-blueprint
 
 # Train the model first (if not already trained)
-python app-ml/entrypoint/rain.py
+python app-ml/entrypoint/train.py
 
 # Run inference in a loop 
 python app-ml/entrypoint/inference.py
